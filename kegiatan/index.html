@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="../assets/css/all.css">
   <title>KLINIK MITRA 2 KARANGMOJO</title>
 </head>
 
@@ -29,64 +29,67 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a></li>
+            <a class="nav-link" href="/">Home</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="profil.html">Profil</a></li>
+            <a class="nav-link" href="profil/">Profil</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="jadwal/">Jadwal Dokter</a></li>
           <li class="nav-item active">
-            <a class="nav-link" href="jadwal.html">Jadwal Dokter</a></li>
+            <a class="nav-link" href="kegiatan/">Kegiatan</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="kegiatan.html">Kegiatan</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="kontak.html">Kontak</a></li>
+            <a class="nav-link" href="kontak/">Kontak</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <br>
-
   <div class="container-lg">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th scope="col">No</th>
-          <th scope="col">Nama Dokter</th>
-          <th scope="col">Hari</th>
-          <th scope="col">Jam</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>dr. Lili Tania Sondang Siagian</td>
-          <td>Senin-Rabu, Jum'at-Minggu</td>
-          <td>08.00-15.00</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>dr. Sigit Wahyu Santoso</td>
-          <td>Senin-Rabu</td>
-          <td>15.00-20.00</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>dr. Ilma Putri Dewanti</td>
-          <td>Kamis-Sabtu</td>
-          <td>15.00-20.00</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>dr. Nurul Istiqomah Zulma</td>
-          <td>Kamis & Minggu</td>
-          <td>08.00-14.00 & 15.00-20.00</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>drg. Wiwik Lestari</td>
-          <td>Minggu</td>
-          <td>10.00</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Rabu, 1 Juli 2020
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="card mb-3">
+              <img src="picture/mitra6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  <center>Acara perkenalan manajemen baru klinik rawat inap mitra 2 karangmojo</center>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Jum'at, 31 Juli 2020
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="card mb-3">
+              <img src="picture/mitra9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  <center>Acara penyembelihan kambing Idhul Adha</center>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <br><br><br>
 
@@ -117,7 +120,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <script src="assets/js/all.js"></script>
+  <script src="../assets/js/all.js"></script>
 </body>
 
 </html>
